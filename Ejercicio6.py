@@ -11,13 +11,13 @@ while hora < 0 or hora > 24:
     hora = int(input("Introduce la HORA de nuevo"))
     print()
 
-while minutos < 0 or minutos > 60:
+while minutos < 0 or minutos > 59:
     print("Has introducido una cifra de MINUTOS incorrecta")
     print()
     minutos = int(input("Introduce los MINUTOS de nuevo"))
     print()
 
-while segundos < 0 or segundos > 60:
+while segundos < 0 or segundos > 59:
     print("Has introducido una cifra de SEGUNDOS incorrecta")
     print()
     segundos = int(input("Introduce los SEGUNDOS de nuevo"))
