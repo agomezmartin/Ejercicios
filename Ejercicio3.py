@@ -7,8 +7,8 @@ print('2. Restar')
 
 operacion = int(input())
 
-n1 = int(input('Introduce un número'))
-n2 = int(input('Introduce otro número'))
+n1 = int(input('Introduce un número: '))
+n2 = int(input('Introduce otro número: '))
 
 if operacion == 1:
     print(n1 + n2)

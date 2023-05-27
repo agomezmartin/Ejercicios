@@ -4,8 +4,8 @@
 USUARIO = 'usuario'
 CONTRASEÑA = 'contraseña'
 
-usuario = input("Introduce tu usuario")
-contraseña = input("Introduce tu contraseña")
+usuario = input("Introduce tu usuario: ")
+contraseña = input("Introduce tu contraseña: ")
 
 intento = 0;
 
@@ -14,7 +14,7 @@ while intento < 3:
     intento += 1
 
     if intento == 3:
-        print('Espera 5 minutos y vuelve a intentarlo')
+        print('Espera 5 minutos y vuelve a intentarlo.')
         break
     if usuario == USUARIO and contraseña == CONTRASEÑA:
         print('Datos correctos.')
@@ -22,5 +22,6 @@ while intento < 3:
 
     elif usuario != USUARIO or contraseña != CONTRASEÑA:
         print('Vuelve a intentarlo.')
-        usuario = input("Introduce tu usuario")
-        contraseña = input("Introduce tu contraseña")
+        print()
+        usuario = input("Introduce tu usuario: ")
+        contraseña = input("Introduce tu contraseña: ")

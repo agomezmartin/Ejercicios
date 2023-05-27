@@ -3,8 +3,8 @@
 # debes mostrar la cantidad de veces
 # que aparece la letra en la frase.
 
-frase = input('Inserta una frase')
-letra = input('Inserta una letra')
+frase = input('Inserta una frase: ')
+letra = input('Inserta una letra: ')
 contador = 0
 
 for i in frase:

@@ -1,7 +1,7 @@
 # 1. Indicar cuál es el menor de tres números solicitados al usuario
-n1 = input('Introduce el primer número')
-n2 = input('Introduce el segundo número')
-n3 = input('Introduce el tercer número')
+n1 = input('Introduce el primer número: ')
+n2 = input('Introduce el segundo número: ')
+n3 = input('Introduce el tercer número: ')
 
 if n1 < n2 and n1 < n3:
     print(str(n1) + ' es el menor de los tres número.')
